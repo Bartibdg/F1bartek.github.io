@@ -1,0 +1,140 @@
+<html>
+
+	<head>
+<script>
+<!--
+function doit(){
+if (!window.print){
+alert("Musisz mieć NS4.x lub IE5,\naby użyć przycisku drukowania!")
+return
+}
+window.print()
+}
+//-->
+</script>
+<a href="javascript:doit()"><img src="print.png" width="50" height="50"border=0></a><br><br>		
+		
+		<a href="gierka.html">Ukryta Gierka</a> <br> <br>
+		<script language="javascript">
+<!--W3e JAVAscript Preset
+var timerID = null;
+var timerRunning = false;
+function stopclock()
+{
+    if(timerRunning)
+        clearTimeout(timerID)
+    timerRunning = false;
+}
+
+function startclock()
+{
+    stopclock();
+    showtime();
+}
+
+function showtime()
+{
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+    var timeValue = "" + ((hours > 12) ? hours - 12 : hours);
+    timeValue  += ((minutes < 10) ? ":0" : ":") + minutes;
+    timeValue  += ((seconds < 10) ? ":0" : ":") + seconds;
+    timeValue  += (hours >= 12) ? " P.M." : " A.M.";
+    document.clock.face.value = timeValue;
+    timerID = setTimeout("showtime()",1000);
+    timerRunning = true;
+}
+//-->
+</script>
+
+<form name="clock" onSubmit="0">
+  <input type="text" name="face" size="24">
+</form>
+<script>startclock();</script>		
+<h3> 
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Hide it
+// Returns today's date in a string with full day and month names
+// by Roger C. Scudder Jr. on 10-2-98
+// corrected for Netscape by Grzegorz Golebiewski
+DayName = new Array(7)
+DayName[0] = "niedziela "
+DayName[1] = "poniedziałek "
+DayName[2] = "wtorek "
+DayName[3] = "środa "
+DayName[4] = "czwartek "
+DayName[5] = "piątek "
+DayName[6] = "sobota "
+
+MonthName = new Array(12)
+MonthName[0] = "stycznia "
+MonthName[1] = "lutego "
+MonthName[2] = "marca "
+MonthName[3] = "kwietnia "
+MonthName[4] = "maja "
+MonthName[5] = "czerwca "
+MonthName[6] = "lipca "
+MonthName[7] = "sierpnia "
+MonthName[8] = "września "
+MonthName[9] = "października "
+MonthName[10] = "listopada "
+MonthName[11] = "grudnia "
+
+function getDateStr(){
+    var Today = new Date()
+    var WeekDay = Today.getDay()
+    var Month = Today.getMonth()
+    var Day = Today.getDate()
+    var Year = Today.getFullYear()
+
+    if(Year <= 99)
+        Year += 1900
+
+    return DayName[WeekDay] + "," + " " + Day + " " + MonthName[Month] + ", " + Year
+}
+//-->
+</SCRIPT>
+
+<SCRIPT>document.write("Dzisiaj jest " + getDateStr())</SCRIPT> </h3>
+<title>Strona</title>
+<style>
+@keyframes blink {
+
+  0% { background-color: red; }
+  20% { background-color: lightred; }
+  40% { background-color: orange; }
+  60% { background-color: lightorange; }
+  80% { background-color: yellow; }
+  100% { background-color: lightyellow; }
+}
+
+body {
+
+  animation: blink 10s infinite;
+  
+} </style>
+	
+	
+	</head>
+
+	<h1> 	Witajcie! 	<br></h1>
+	<h2>		<font color="black">Moja strona poświęcona będzie F1, czyli Królowej Motorsportu </font></h2>
+	<img src="5.png" width="300" height="225"> <br>		<h2> 	<font color="black">Interesuję się F1 od sezonu 2013, którego mistrzem został Sebastian Vettel, <br> czyli najbardziej utytułowany kierowca zespołu z Austrii (Redbull Racing. Strona o nim w linku poniżej. <font></h2>
+	<h2> <a href="strona3.html">Sebastian Vettel</a> <br><br>
+		<img src="4.jpeg" width="600"> <br>	
+	<h2>		<font color="black">Moim ulubionym kierowcą jest George Russell, który jeździ dla Mercedesa,  wraz z najlepszym kierowcą w historii czyli Lewisem Hamiltonem. Więcej o nim w linku poniżej </font></h2>
+	<h2> <a href="strona2.html">Lewis Hamilton</a> <br> <br>
+	Jest to jeden z najlepszych zespołów w historii tego sportu. Link do ich strony internetowej poniżej. 	<h2> <a href="https://www.mercedesamgf1.com/">Mercedes F1</a> <br> </h2>	
+	<img src="3.jpeg" width="500"> 
+	<img src="7.jpeg" width="500">  <br>
+	<h2>		<font color="black">Tegorocznym mistrzem świata jest Max Verstappen, który zgromadził 575 punktów. Więcej o nim w linku poniżej. </font></h2>
+	<h2> <a href="strona4.html">Max Verstappen</a>
+
+	
+	
+	
+
+	</body>
+</html>
