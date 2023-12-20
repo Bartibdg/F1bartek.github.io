@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<title>Haslo</title>
+		<SCRIPT LANGUAGE="JavaScript"> 
+<!----- Script CopyRight © 1996 - 1997  S.Chris Brown (Spikeman)   http://www.geocities.com/BourbonStreet/3843  
+// This JavaScript code Originally by S.Chris Brown (Spikeman) 1996-1997 ( http://www.geocities.com/BourbonStreet/3843 )    
+function Spikeman_password(form) { 
+ if (form.ID.value=="Bartek Kapusta") { 
+    if (form.pass.value=="bartek") { 
+      location="strona1.html" 
+     
+} else { 
+      alert("Sorry " +form.ID.value+ ", wrong password.") 
+    } 
+  } else { 
+    alert("Niewłaściwe informacje!") 
+  } 
+} 
+//--> 
+</SCRIPT>	</head>
+	<body bgcolor="red">
+	<center><h1>Wejdz na strone</h1>
+	<center><FORM name="login">
+Login <INPUT NAME="ID"><br>
+Hasło <INPUT NAME="pass" type="password"><br><br>
+<INPUT TYPE="button" VALUE="Zaloguj" onClick="Spikeman_password(this.form)"> <INPUT TYPE="RESET" VALUE="Wyczyść">
+</form></center>
+
+	</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+	<html>
+
+	<head>
+<script>
+<!--
+function doit(){
+if (!window.print){
+alert("Musisz mieć NS4.x lub IE5,\naby użyć przycisku drukowania!")
+return
+}
+window.print()
+}
+//-->
+</script>
+<a href="javascript:doit()"><img src="print.png" width="50" height="50"border=0></a><br><br>		
+		<a href="gierka.html">Ukryta Gierka</a> <br> <br>
+		<script language="javascript">
+<!--W3e JAVAscript Preset
+var timerID = null;
+var timerRunning = false;
+function stopclock()
+{
+    if(timerRunning)
+        clearTimeout(timerID)
+    timerRunning = false;
+}
+
+function startclock()
+{
+    stopclock();
+    showtime();
+}
+
+function showtime()
+{
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+    var timeValue = "" + ((hours > 12) ? hours - 12 : hours);
+    timeValue  += ((minutes < 10) ? ":0" : ":") + minutes;
+    timeValue  += ((seconds < 10) ? ":0" : ":") + seconds;
+    timeValue  += (hours >= 12) ? " P.M." : " A.M.";
+    document.clock.face.value = timeValue;
+    timerID = setTimeout("showtime()",1000);
+    timerRunning = true;
+}
+//-->
+</script>
+
+<form name="clock" onSubmit="0">
+  <input type="text" name="face" size="24">
+</form>
+<script>startclock();</script>		
+<h3> <font color="white">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Hide it
+// Returns today's date in a string with full day and month names
+// by Roger C. Scudder Jr. on 10-2-98
+// corrected for Netscape by Grzegorz Golebiewski
+DayName = new Array(7)
+DayName[0] = "niedziela "
+DayName[1] = "poniedziałek "
+DayName[2] = "wtorek "
+DayName[3] = "środa "
+DayName[4] = "czwartek "
+DayName[5] = "piątek "
+DayName[6] = "sobota "
+
+MonthName = new Array(12)
+MonthName[0] = "stycznia "
+MonthName[1] = "lutego "
+MonthName[2] = "marca "
+MonthName[3] = "kwietnia "
+MonthName[4] = "maja "
+MonthName[5] = "czerwca "
+MonthName[6] = "lipca "
+MonthName[7] = "sierpnia "
+MonthName[8] = "września "
+MonthName[9] = "października "
+MonthName[10] = "listopada "
+MonthName[11] = "grudnia "
+
+function getDateStr(){
+    var Today = new Date()
+    var WeekDay = Today.getDay()
+    var Month = Today.getMonth()
+    var Day = Today.getDate()
+    var Year = Today.getFullYear()
+
+    if(Year <= 99)
+        Year += 1900
+
+    return DayName[WeekDay] + "," + " " + Day + " " + MonthName[Month] + ", " + Year
+}
+//-->
+</SCRIPT>
+
+<SCRIPT>document.write("Dzisiaj jest " + getDateStr())</SCRIPT> <font></h3>		<title>Sebastian Vettel</title>
+	</head>
+	<body background="22.jpeg">
+		<body bgcolor="darkblue">
+<h1> <b> <font color="white">Sebastian Vettel<font><br> </b></h1>
+
+<h2><table> <tr> <td>	<font color="white">Sebastian Vettel - urodzony 3 lipca 1987 w Heppenheim – niemiecki kierowca wyścigowy,<br>  startujący w mistrzostwach świata Formuły 1 w latach 2007-2022. Vettel jest czterokrotnym <br> mistrzem świata Formuły 1, trzykrotnym wicemistrzem świata w sezonach 2009, 2017 i 2018, <br> a także drugim wicemistrzem w sezonie 2015. </td> <td> <img src="23.jpeg" width="300" height"200"> </td> </tr> </table>
+<h1> <table> <tr> <td> Pozostała działalność sportowa:</td> </tr> </table> </h1> <h2> <br> <table> <tr> <td> <img src="18.jpeg" width="200" height"100"> </td> <td> <font color="white"> Wspólnie z Michaelem Schumacherem w latach 2007–2012 wystartował w sześciu <br> edycjach Race of Champions, zwyciężając zespołowo we wszystkich edycjach. W 2017 <br> roku samotnie zwyciężył w rywalizacji zespołowej ze względu na wcześniejszy wypadek <br>  Pascala Wehrleina. W 2015 roku zwyciężył w rywalizacji indywidualnej Race of <br> Champions. W 2011 roku przetestował symulator jazdy Formuły 1 Playseat Redbull <br> Racing F1. W 2012 roku wziął udział w Goodwood Festival of Speed. W 2014 roku <br> poprowadził bolid Ferrari F1 87-88C na torze Red Bull Ring. </td> </tr> </table> </font>     
+<h2>		<font color="white">Linki do innych stron poniżej:</font></h2>
+
+<h2> <a href="strona1.html">F1</a> </h2>
+<h2> <a href="strona2.html">Lewis Hamilton</a> </h2>
+<h2> <a href="strona4.html">Max Verstappen</a> </h2>	
+	</body>
+</html>
